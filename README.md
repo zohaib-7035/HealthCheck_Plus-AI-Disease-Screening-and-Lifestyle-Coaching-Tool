@@ -1,5 +1,5 @@
 
-# 🧠 Multi-Disease Prediction System
+# 👨‍⚕️ HealthCheck+: AI Disease Screening & Lifestyle Coach
 
 A powerful AI-integrated healthcare assistant that predicts **Diabetes**, **Heart Disease**, and **Parkinson's Disease** using machine learning, and provides **personalized health recommendations** powered by **Google Gemini AI**.
 
