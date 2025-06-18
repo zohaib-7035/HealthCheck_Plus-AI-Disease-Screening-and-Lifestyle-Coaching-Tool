@@ -26,7 +26,7 @@ parkinsons_model = pickle.load(open('C:/Users/asifn/OneDrive/Desktop/Multiple Pr
 
 
 def get_health_recommendations(condition_name):
-    API_KEY = "AIzaSyCRR1sgVdjFtzhU98v-VKS3Q2Pdsz-EdeQ"  # Replace with your Gemini API key
+    API_KEY = "API-key"  # Replace with your Gemini API key
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
     headers = {
@@ -66,7 +66,7 @@ def get_health_recommendations(condition_name):
 
 
 def chat_with_gemini(user_input):
-    API_KEY = "AIzaSyCRR1sgVdjFtzhU98v-VKS3Q2Pdsz-EdeQ"
+    API_KEY = "api_key"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
     headers = {
